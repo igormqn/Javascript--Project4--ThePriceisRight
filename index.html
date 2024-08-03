@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Price is Right</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+  
+        <div class="row justify-content-center mt-5">
+          <header>
+            Price Guessing Game (The price is right)
+          </header>
+        </div>
+        
+        <!-- Form -->
+        <div class="row justify-content-center mt-5 mb-4">   
+          <div class="col-lg-8">   
+            <div class="bg-light p-5 shadow">
+              
+              <form id="guess-form">
+                <div class="row">
+                  <div class="col">
+                    <input id="price" class="form-control" placeholder="Guess the price! (between 0 and 1,000)" />
+                  </div>
+                  <button type="submit" class="btn btn-primary">Guess</button>
+                </div>
+                <small class="text-danger">You must enter a number.</small>
+              </form>
+              
+            </div>  
+          </div>
+        </div>
+        
+        <!-- Instructions -->
+        <div class="row justify-content-center">
+          <div id="instructions" class="col-lg-8"></div>
+        </div>
+        
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
